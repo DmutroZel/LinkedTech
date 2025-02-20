@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.css' integrity='sha512-GmZYQ9SKTnOea030Tbiat0Y+jhnYLIpsGAe6QTnToi8hI2nNbVMETHeK4wm4MuYMQdrc38x+sX77+kVD01eNsQ==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap" id="wrap1">
+    <header>
+        <div class="logo"><img src="photo/logo.jpg" alt="" class="logoPhoto">LINKEDTECH</div>
+        <nav>
+            <a href="#wrap1">Home <i class="fa-regular fa-circle-down"></i></a>
+            <a href="#wrap3">About <i class="fa-regular fa-circle-down"></i></a>
+            <a href="#wrap2">Product <i class="fa-regular fa-circle-down"></i></a>
+            <a href="#wrap4">Shop <i class="fa-regular fa-circle-down"></i></a>
+            <a href="#contact">Contact Us <i class="fa-regular fa-circle-down"></i></a>
+        </nav>
+        <div class="icons">
+            <!-- <a href="#"><i class="fas fa-search"></i></a> -->
+            <div class="cartContainer">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="cartCounter">0</div>
+            </div>
+            <!-- <a href="#"><i class="fas fa-user"></i></a> -->
+        </div>
+    </header>
+    <main>
+        <section class="promo">
+            <div class="infoPromo">
+                <div class="textPromo">
+                    <h2>Favorite Brands</h2>
+                    <h1> <span>An exciting place</span> <br>for the whole family <br> to shop.</h1>
+                    <p>The standard chunk of Lorem Ipsum used since the 1500s is <br> reproduced below for those interested.</p>
+                    <div class="cta">
+                        <button>Shop Now</button>
+                        <span class="price">$249.99 <del>$349.99</del></span>
+                    </div>
+                </div>
+            </div>
+            <div class="photoPromo">
+                <img src="photo/speacker.jfif" alt="Speaker" class="product-image">
+            </div>
+        </section>
+        <section class="brands">
+            <img src="photo/reklamaGroup.png" alt="Brand 1">
+        </section>
+    </main>
+</div>
+    <div class="wrap2" id="wrap2">
+        <section class="products">
+            <div class="product">
+                <img src="photo/kolonka1.jfif" alt="Speaker">
+                <div class="products-info">
+                <h3>Always in style!</h3>
+                <p>The standard chunk of Lorem Ipsum below for those interested. The standard chunk of for those interested.</p>
+                <div class="price">
+                    <span class="current-price">$249.99 /</span>
+                    <span class="original-price"><del>$349.99</del></span>
+                </div>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                </div>
+            </div>
+            </div>
+            <div class="product">
+                <img src="photo/headphones1.jfif" alt="Headphones">
+                <div class="products-info">
+                <h3>Always in style!</h3>
+                <p>The standard chunk of Lorem Ipsum below for those interested. The standard chunk of for those interested.</p>
+                <div class="price">
+                    <span class="current-price">$249.99 /</span>
+                    <span class="original-price"><del>$349.99</del></span>
+                </div>
+                <div class="rating">
+                    <span class="stars">★★★★☆</span>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section class="promotions">
+            <div class="promotion">
+                <div class="pT">
+                <h3>GET UP TO 20% OFF TODAY ONLY!</h3>
+                <h2>THE 4K HDR COMPACT DRONE</h2>
+                <a href="#" class="cta">SHOW NOW</a>
+            </div>
+                <img src="photo/dron.png" alt="" >
+            </div>
+            <div class="promotion">
+                <div class="pT">
+                <h3>GET UP TO 30% OFF TODAY ONLY!</h3>
+                <h2>THE 4K HDR COMPACT Camera</h2>
+                <a href="#" class="cta">SHOW NOW</a>
+            </div>
+                <img src="photo/camera.png" alt="">
+            </div>
+        </section>
+    </div>
+    <div class="wrap3" id="wrap3">
+        <div class="photoAbout">
+            <div class="containerPhoto">
+                <div class="background-shape"></div>
+                <img src="photo/divka.png" alt="Жінка з ноутбуком" class="person">
+            </div>
+        </div>
+
+
+        <div class="infoAbout">
+            
+                <p class="subheading">ABOUT PRODUCTS</p>
+                <h1 class="title">About For Products</h1>
+                <p class="description">
+                    There are many variations of passages of Lorem Ipsum available, <br>
+                    but the majority have suffered alteration in some form, by injected <br>
+                    humour, or randomised words which don't look even <br>slightly believable. 
+                </p>
+                <p class="description">
+                    If you are going to use a passage of Lorem Ipsum, you need to be sure <br>
+                    there isn't anything embarrassing hidden in the middle of text.
+                </p>
+        
+                <ul class="list">
+                    <li><span class="icon">✔</span> There are many variations of passages of Lorem Ipsum</li>
+                    <li><span class="icon">✔</span> There are many variations of passages of Lorem <br> Embarrassing middle of text.</li>
+                    <li><span class="icon">✔</span> There are many variations of passages of Lorem Ipsum</li>
+                    <li><span class="icon">✔</span> There are many variations of passages.</li>
+                    <li><span class="icon">✔</span> There are many variations of passages.</li>
+                </ul>
+            </div>
+        
+            
+        </div>
+    <div class="wrap4" id="wrap4">
+        <div class="shoppingCart">
+
+            <div class="shoppingCartList"></div>
+            <div class="shoppingCartData">
+                <input type="text" id="username" placeholder="Your name">
+                <input type="number" id="phone" placeholder="Your phone">
+            </div>
+            <button id="sendOrder">Send</button>
+        </div>
+
+       <div class="goodsContainer">
+
+       </div>
+    </div>
+    <div id="contact">
+        <!-- Contact Us section content -->
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
